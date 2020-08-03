@@ -49,16 +49,12 @@ category: 프로그래머스
 >  arr = [i for i in range(min(a,b), max(a,b)+1)]
 >  ```
 >
->  <br>
->
 >  이 후, 우리는 단순히 **sum(Iterable)** 을 활용해 그 합을 구하고 반환해주면 된다. **sum()** 은 *주어진 이터러블에 대해 **직접 반복을 시행**해 모든 원소의 값을 더한 것을 반환* 해준다. 앞에 강조한 것과 같이 직접 반복을 시행하기 때문에 **Iterable 의 크기가 클 수록 속도가 저해** 된다는 것을 주의하자.
 >
 >  ```python
 >  # return summation
 >  return sum(arr)
 >  ```
->
->  <br>
 >
 >  결과 코드는 다음과 같다. 
 

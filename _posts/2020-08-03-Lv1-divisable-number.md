@@ -66,16 +66,12 @@ divisor로 나누어 떨어지는 element가 하나도 없다면 배열에 -1을
 >      		answer.append(num)
 >  ```
 >
->  <br>
->
 >  필자는 이를 **조건부 리스트**를 활용해 다음과 같이 구현하였다. 리스트 생성구문에 if 문을 활용한다면 <span style='color:skyblue'><i>기존의 리스트를 순회하면서 아래와 같이 원하는 조건에 맞는 원소만 가진 리스트</i></span>를 만들 수 있다. 
 >
 >  ```python
 >  # answer is list made by appending element which is divisable by divisor of input array
 >  answer = [num for num in arr if num%divisor == 0]
 >  ```
->
->  <br>
 >
 >  결과 코드는 다음과 같다. 
 
