@@ -5,7 +5,7 @@ layout: default
 {% assign category = page.category | default: page.title %}
 <h2 style="text-align: center;"> {{ category }} Total {{ site.categories[category].size }} Solved </h2>
 
-{%- assign programmers_tag = "Lv1, Lv2, Lv3, Lv4, Lv5" | split: ',' -%}
+{%- assign programmers_tag = "Lv1,Lv2,Lv3,Lv4,Lv5" | split: ',' -%}
 
 <div id="full-tags-list">
     {%- for tag in programmers_tag -%}
