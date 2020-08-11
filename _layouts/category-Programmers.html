@@ -5,15 +5,15 @@ layout: default
 {% assign category = page.category | default: page.title %}
 <h2 style="text-align: center;"> {{ category }} Total {{ site.categories[category].size }} Solved </h2>
 
-{%- assign programmers_tag = "Lv1, Lv2, Lv3, Lv4" | split: ',' -%}
+{%- assign programmers_tag = "Lv1, Lv2, Lv3, Lv4, Lv5" | split: ',' -%}
 
 <div id="full-tags-list">
     {%- for tag in programmers_tag -%}
-
+    
     {%- if site.tags[tag].size > 0 -%}
     <h3><i class="fas fa-book-open" aria-hidden="true"></i>&nbsp; {{- tag -}}&nbsp;&nbsp;{{ site.tags[tag].size }} Solved!</h3>
     {%- else -%}
-    <h3><i class="fas fa-book" aria-hidden="true"></i>&nbsp; {{- tag -}}&nbsp;&nbsp;0 Solve</h3>
+    <h3><i class="fas fa-book" aria-hidden="true"></i>&nbsp; {{- tag -}}&nbsp;&nbsp; {{ site.tags[tag].size }} Solve</h3>
     {%- endif -%}
     
         <div class="post-list">
