@@ -112,7 +112,9 @@ $ npm -v
 
 <br>VS code 를 설치했다면, 다음과 같은 화면이 우릴 반길 것이다. 이제 우리는 Node.js 와 만날 준비가 되었다. 좌측 탭의 박스 모양 아이콘을 눌러 **Extensions 에서 node, express 관련 확장프로그램들을 설치** 하면 Syntax Highlighting 과 같이 보다 가독성 높은 편집 환경을 만들 수 있을 것이다.
 
-![Imgur](https://imgur.com/hvb9c6j.png)
+<center>
+<img src="https://imgur.com/hvb9c6j.png" alt="Imgur" style="zoom:20%;" />
+</center>
 
 <br>
 
@@ -187,9 +189,9 @@ easy-api
 <h4>(3) 프로젝트 폴더로 이동해 필요 패키지를 설치합니다. </h4>
 
 프로젝트 폴더로 이동해 **npm install 명령어를 실행**하면, express-generator 가 정의한 package.json 의 Dependency 모듈들을 설치합니다. <span style='color:skyblue'>( npm install 명령어는 현재 터미널 상에서 커서가 위치해있는 프로젝트의 package.json 내의 dependencies 리스트를 참조해 패키지들을 설치합니다. )</span>
-
-<img src="https://imgur.com/bneDlny.png" alt="Imgur" style="zoom:50%;" />
-
+<center>
+<img src="https://imgur.com/bneDlny.png" alt="Imgur" style="zoom:30%;" />
+</center>
 ~~~bash
 $ cd easy-api
 $ npm install 
@@ -200,8 +202,9 @@ found 0 vulnerabilities
 
 필수 패키지들이 모두 설치되었다면, 다음과 같이 프로젝트 폴더를 확인해봅시다.
 
+<center>
 <img src="https://imgur.com/7gyTS3U.png" alt="Imgur" style="zoom:50%;" />
-
+</center>
 <br>
 
 <h4>(4) 서버 실행하기 </h4>
@@ -216,8 +219,9 @@ $ npm start
 > easy-api@0.0.0 start /Users/jaeheo/Desktop/express/easy-api
 > node ./bin/www
 ~~~
-
+<center>
 <img src="https://imgur.com/27tTlR9.png" alt="Imgur" style="zoom:50%;" />
+</center>
 
 <br>
 
