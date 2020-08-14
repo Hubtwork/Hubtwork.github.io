@@ -19,8 +19,8 @@ navbar-links:
     - 프로그래머스: "/category/programmers"
     - 알고리즘 정리: "/category/algorithms"
   Development:
-    - node js: "#"
-    - Python: "#"
+    - Node.js: "/category/Node.js"
+    - Django: "#"
 
 # --- Logo --- #
 
