@@ -131,7 +131,7 @@ $ npm -v
 
 우리는 **express-generator** 를 활용해 빈 프로젝트를 생성할 것입니다. 이는 Express 서버를 구동하기 위한 모든 세팅을 마친 프로젝트 폴더를 생성해줍니다. 그럼 왜 이 모듈을 사용해야하느냐? Express 는 Intro 에서 설명한것과 같이 하나의 모듈입니다. 만약 node.js 프로젝트를 만들고, express 를 모듈로서 사용한다면 사용자가 일일이 필요 모듈들을 설치하고 Express 가 제공하는 프로젝트의 골격을 일일이 수정해야합니다.
 
- **하지만 express-generator 는 Express 프레임워크를 사용하여 서버를 작성하기 위한 구조 및 필요 모듈들을 알아서 세팅해 프로젝트 폴더를 만들어줍니다. **
+**하지만 express-generator 는 Express 프레임워크를 사용하여 서버를 작성하기 위한 구조 및 필요 모듈들을 알아서 세팅해 프로젝트 폴더를 만들어줍니다.**
 
 ​	**express-generator ?**
 
@@ -167,6 +167,7 @@ $ npm install
 run the app:
 $ DEBUG=easy-api:* npm start
 ~~~
+<br>
 
 ~~~bash
 # ls 명령어를 통해 해당 프로젝트가 생성되었음을 확인할 수 있습니다.
@@ -192,6 +193,7 @@ easy-api
 <center>
 <img src="https://imgur.com/bneDlny.png" alt="Imgur" style="zoom:30%;" />
 </center>
+
 ~~~bash
 $ cd easy-api
 $ npm install 
@@ -219,6 +221,7 @@ $ npm start
 > easy-api@0.0.0 start /Users/jaeheo/Desktop/express/easy-api
 > node ./bin/www
 ~~~
+<br>
 <center>
 <img src="https://imgur.com/27tTlR9.png" alt="Imgur" style="zoom:50%;" />
 </center>
