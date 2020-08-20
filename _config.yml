@@ -18,6 +18,8 @@ navbar-links:
   Algorithm:
     - 프로그래머스: "/category/programmers"
     - 알고리즘 정리: "/category/algorithms"
+  IT Knowledge:
+    - 데이터베이스: "/category/database"
   Development:
     - Node.js: "/category/nodejs"
     - Django: "#"
