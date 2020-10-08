@@ -20,8 +20,9 @@
       ​		[특허 정보 Kipris Link](http://m.kipris.or.kr/mobile/search/view_patent.do?applno=1020180092328)
 
 . 2019. 10 ) TOPCIT 응시, 상위 6% ( Level 3 ) 
-
-      <img src="https://imgur.com/o3XLLi5.png" alt="Imgur" style="zoom:30%;" />
+<center>
+    <img src="https://imgur.com/o3XLLi5.png" alt="Imgur" style="zoom:30%;" />
+</center>
 
 . 2019. 11 ) SNS 자연어 처리를 이용한 지진 경보 시스템 - 대한 전자공학회 추계학술대회 우수논문상 수상
       ​		[논문 정보 DBpia Link](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09282358)
