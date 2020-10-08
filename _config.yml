@@ -15,6 +15,7 @@ author: Hubtwork
 
 navbar-links:
   About Me: "aboutme"
+  Blog: "/category/devlog"
   Algorithm:
     - 프로그래머스: "/category/programmers"
     - 알고리즘 정리: "/category/algorithms"
