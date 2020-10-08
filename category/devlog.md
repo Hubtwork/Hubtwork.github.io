@@ -1,5 +1,5 @@
 ---
 layout: category
-title: 개발일기
+title: devlog
 permalink: category/devlog
 ---
