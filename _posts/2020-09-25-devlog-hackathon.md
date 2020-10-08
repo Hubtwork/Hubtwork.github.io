@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2020년 9월 25일 , 핀테크 해커톤 최우수상을 타다
+title: 2020년 9월 25일 . 핀테크 해커톤 최우수상
 subtitle: 제 8회 KISA 핀테크 해커톤 최우수상 수상 
 cover-img: /assets/img/path.jpg
 tags: [개발일기, devlog, hackathon, fintech, swift, nodejs, kiosk]
