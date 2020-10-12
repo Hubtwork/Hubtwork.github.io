@@ -17,11 +17,11 @@ category: 백엔드
 
 
 
->[ 1. REST API ?](#REST-API-?)
->[ 2. REST API 의 구성과 특징 ](#REST-API-의-구성과-특징)
->[ 3. REST API 장단점 ](#REST-API-의-장단점)
->[ 4. REST API 가이드라인 ](#REST-API-가이드라인)
-
+>[ 1. REST API ?](##REST-API-?)<br>
+>[ 2. REST API 의 구성과 특징 ](##REST-API-의-구성과-특징)<br>
+>[ 3. REST API 장단점 ](##REST-API-의-장단점)<br>
+>[ 4. REST API 가이드라인 ](##REST-API-가이드라인)
+<br>
 
 
 ## REST API ?
@@ -174,11 +174,11 @@ REST API 를 설계한다면, 무엇보다 중요시해야 하는 것이 있다.
 #### CREATE
 
 ```
-GET /shops/{shop_id}/items/create/{item_id}			(x)		-	잘못된 HTTP Method
-POST /shops/{shop_id}/items/{item_id}/					(x)		-	잘못된 URI 구분자
-GET /getItem/shops/{shop_id}/items/{item_id}		(x)		- 잘못된 URI 표현
+GET /shops/{shop_id}/items/create/{item_id}     (x)	- 잘못된 HTTP Method
+POST /shops/{shop_id}/items/{item_id}/          (x)	- 잘못된 URI 구분자
+GET /getItem/shops/{shop_id}/items/{item_id}    (x)	- 잘못된 URI 표현
 
-POST /shops/{shop_id}/items/{item_id}						(o)
+POST /shops/{shop_id}/items/{item_id}           (o)
 ```
 
 위 3개의 요청은 잘못되었다...? 크게 보면 동작도 정의한 것 같고, URI 도 나름 만든 것 같아 별 문제 될 게 없어 보인다. 자세한 내용은 아래 설계 규칙 파트에서 다룰 것이고, 여기서 중요한 것은 맨 아래의 올바른 요청과 같이 **URI 는 데이터의 자원만을 표시하며 행위는 올바른 HTTP Method 에 매칭해야한다는 것이다.** 즉 URI 는 일련의 규칙에 맞게 데이터의 자원만을 표시할 수 있도록 하고, 동작에 대해서 올바른 HTTP Method 를 사용하게끔 해야한다는 것을 유념하자.
@@ -186,19 +186,21 @@ POST /shops/{shop_id}/items/{item_id}						(o)
 #### READ
 
 ```
-GET /shops/{shop_id}/items/{item_id}						(o)
+GET /shops/{shop_id}/items/{item_id}			(o)
 ```
+<br>
 
 #### UPDATE
 
 ```
-PUT /shops/{shop_id}/items/{item_id}						(o)
+PUT /shops/{shop_id}/items/{item_id}			(o)
 ```
+<br>
 
 #### DELETE
 
 ```
-DELETE /shops/{shop_id}/items/{item_id}					(o)
+DELETE /shops/{shop_id}/items/{item_id}			(o)
 ```
 
 
@@ -212,7 +214,7 @@ DELETE /shops/{shop_id}/items/{item_id}					(o)
 | UPDATE ( 자원의 갱신 ) | PUT         |
 | DELETE ( 자원의 삭제 ) | DELETE      |
 
-
+<br>
 
 ### REST API 설계
 
@@ -253,9 +255,7 @@ DELETE /shops/{shop_id}/items/{item_id}					(o)
 
   >REST API 의 클라이언트로부터 전달된 요청에 대한 작업을 수행하기 위해 전달받은 데이터를 읽거나 혹은 작업을 진행하는 도중 해당 자원에 대해 정확히 명령이 수행되었는지, 혹은 어떠한 이유에 의해 작업이 정상적으로 수행될 수 없거나 수행되지 않았을 때에 대한 작업 상태 코드를 반환해주어야 비로소 잘 설계된 REST API 라고 할 수 있다. 보통은 HTTP 상태코드로 반환하지만 서비스의 도큐멘트를 사용자가 이해하기 쉽도록 잘 정리하였다면 임의의 상태코드를 작성하여 사용하는 것도 좋다.
 
-
-
-
+<br>
 
 ### END
 
