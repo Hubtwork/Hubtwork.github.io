@@ -1,7 +1,7 @@
 ---
 layout: post
 title: REST API 정복하기
-subtitle: 제 8회 KISA 핀테크 해커톤 최우수상 수상 
+subtitle: REST API 에 대해 제대로 알아보자
 cover-img: /assets/img/path.jpg
 tags: [restapi, server, backend, http, architecture]
 category: 백엔드
@@ -17,7 +17,7 @@ category: 백엔드
 
 
 
->[1. REST API ?](#REST-API-?)
+>[ 1. REST API ?](#REST-API-?)
 >[ 2. REST API 의 구성과 특징 ](#REST-API-의-구성과-특징)
 >[ 3. REST API 장단점 ](#REST-API-의-장단점)
 >[ 4. REST API 가이드라인 ](#REST-API-가이드라인)
