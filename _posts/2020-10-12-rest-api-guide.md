@@ -16,11 +16,12 @@ category: 백엔드
 ---
 <br>
 
-> **목차**
-> **[ 1. REST API ?]**
-> **[ 2. REST API 의 구성과 특징 ]**
-> **[ 3. REST API 장단점 ]**
-> **[ 4. REST API 가이드라인 ]**
+
+> #### 목차 
+> [ 1. REST API ?]
+> [ 2. REST API 의 구성과 특징 ]
+> [ 3. REST API 장단점 ]
+> [ 4. REST API 가이드라인 ]
 <br>
 
 
