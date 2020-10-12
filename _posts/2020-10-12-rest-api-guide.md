@@ -18,10 +18,10 @@ category: 백엔드
 <br>
 
 > ### 목차 
-> ### 1. REST API ? <br>
-> ### 2. REST API 의 구성과 특징<br>
-> ### 3. REST API 장단점 <br>
-> ### 4. REST API 가이드라인
+> #### 1. REST API ? <br>
+> #### 2. REST API 의 구성과 특징<br>
+> #### 3. REST API 장단점 <br>
+> #### 4. REST API 가이드라인
 
 <br>
 <br>
@@ -193,20 +193,21 @@ POST /shops/{shop_id}/items/{item_id}           (o)
 ```
 GET /shops/{shop_id}/items/{item_id}			(o)
 ```
-
+<br>
 
 #### UPDATE
 
 ```
 PUT /shops/{shop_id}/items/{item_id}			(o)
 ```
+<br>
 
 #### DELETE
 
 ```
 DELETE /shops/{shop_id}/items/{item_id}			(o)
 ```
-
+<br>
 
 
 아래 표를 명심하며 URI 는 자원의 표현만을 명확히 하고, 각 자원에 대한 행위는 HTTP METHOD 를 통해 할 수 있도록 명시적으로 분리해 설계하도록 한다.
