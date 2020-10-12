@@ -17,7 +17,8 @@ category: 백엔드
 <br>
 <br>
 
-> <center> <h2> 목차 </h2> </center>
+> <h2> 목차 </h2>
+> <br>
 > <h3> 1. REST API ? </h3>
 > <h3> 2. REST API 의 구성과 특징 </h3>
 > <h3> 3. REST API 장단점 </h3>
@@ -276,8 +277,8 @@ REST API 에 대해 공부하고 다양한 프로젝트에 적용하면서 내�
 
 ---
 
-- http://haah.kr/2017/08/05/rest-series-summary/
-- https://shoark7.github.io/programming/knowledge/what-is-rest
-- https://sabarada.tistory.com/9
-- https://renegades.tistory.com/entry/RESTful-API%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80
+- [http://haah.kr/2017/08/05/rest-series-summary/](http://haah.kr/2017/08/05/rest-series-summary/)
+- [https://shoark7.github.io/programming/knowledge/what-is-rest](https://shoark7.github.io/programming/knowledge/what-is-rest)
+- [https://shoark7.github.io/programming/knowledge/what-is-rest](https://sabarada.tistory.com/9)
+- [https://shoark7.github.io/programming/knowledge/what-is-rest](https://renegades.tistory.com/entry/RESTful-API%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)
 
