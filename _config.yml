@@ -21,6 +21,7 @@ navbar-links:
     - 알고리즘 정리: "/category/algorithms"
   IT Knowledge:
     - 데이터베이스: "/category/database"
+    - 백엔드: "/category/backend"
   Development:
     - Node.js: "/category/nodejs"
     - Django: "#"
