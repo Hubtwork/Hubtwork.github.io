@@ -17,11 +17,11 @@ category: 백엔드
 <br>
 <br>
 
-> ### 목차 
-> #### 1. REST API ? <br>
-> #### 2. REST API 의 구성과 특징<br>
-> #### 3. REST API 장단점 <br>
-> #### 4. REST API 가이드라인
+> <center> <h2> 목차 </h2> </center>
+> <h3> 1. REST API ? </h3>
+> <h3> 2. REST API 의 구성과 특징 </h3>
+> <h3> 3. REST API 장단점 </h3>
+> <h3> 4. REST API 가이드라인 </h3>
 
 <br>
 <br>
@@ -221,9 +221,7 @@ DELETE /shops/{shop_id}/items/{item_id}			(o)
 
 <br>
 
-### REST API 설계
-
-####   REST 설계 가이드
+### REST API 설계 가이드
 
 - URI 의 표현에는 소문자만을 사용하는 것이 좋다. 
 
