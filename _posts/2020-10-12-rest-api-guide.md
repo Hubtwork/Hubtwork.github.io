@@ -18,10 +18,10 @@ category: 백엔드
 
 
 > #### 목차 
-> [ 1. REST API ?]
-> [ 2. REST API 의 구성과 특징 ]
-> [ 3. REST API 장단점 ]
-> [ 4. REST API 가이드라인 ]
+> 1. REST API ? <br>
+> 2. REST API 의 구성과 특징<br>
+> 3. REST API 장단점 <br>
+> 4. REST API 가이드라인
 <br>
 
 
